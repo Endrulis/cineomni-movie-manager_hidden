@@ -42,7 +42,6 @@ Movie Details: Users can view detailed information about each movie, including s
     - **Docker**: A containerization platform for packaging applications and their dependencies.
 - **Frontend**:
     - **React**: A JavaScript library for building user interfaces.
-    - **Redux**: A predictable state container for managing application state.
     - **TypeScript**: Enhanced code quality and type checking for better development experience.
     - **Sass**: A preprocessor that extends CSS with variables, mixins, and more.
     - **Bootstrap**: A CSS framework for responsive and mobile-first web development.
