@@ -6,7 +6,7 @@
 
 **Cineomni Favorite Movie Manager** is a web application designed to help users manage and keep track of their favorite movies. Web application is built using NestJS, React, TypeScript, Redux, Sass, Bootstrap, Tailwind, Linter, Pactum, Prisma, MySQL, PlanetScale, Docker, ChatGPT. 
 ***
-**Note: This project is hidden and won't be publicly accessible. It is in the development stage, and I am committed to adhering to best practices and writing clean code.**
+**Note: Project now publicly accesible. Code not super clean yet.**
 
 ## Table of Contents
 
