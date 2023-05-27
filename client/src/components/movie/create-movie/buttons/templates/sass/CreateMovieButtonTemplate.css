@@ -1,0 +1,25 @@
+.create-movie-button-template {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.create-movie-button-template__button {
+  margin-top: 2rem;
+  background-color: rgb(30, 58, 138);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.375rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-duration: 300ms;
+}
+.create-movie-button-template__button:hover {
+  background-color: rgb(30, 64, 175);
+}
+.create-movie-button-template__icon {
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=CreateMovieButtonTemplate.css.map */

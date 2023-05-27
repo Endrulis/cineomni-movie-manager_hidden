@@ -1,0 +1,89 @@
+.update-movie-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: rgba(17, 24, 39, 0.75);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  z-index: 50;
+}
+@media (min-width: 640px) {
+  .update-movie-form {
+    max-width: 28rem;
+  }
+}
+.update-movie-form__field {
+  margin-bottom: 1rem;
+  color: white;
+}
+.update-movie-form__field-label {
+  display: block;
+  color: rgb(209, 213, 219);
+  margin-bottom: 0.25rem;
+}
+.update-movie-form__field-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  border-color: rgb(55, 65, 81);
+  background-color: rgb(107, 114, 128);
+  color: rgb(243, 244, 246);
+}
+.update-movie-form__field-input:focus {
+  background-color: rgb(156, 163, 175);
+  border-color: rgb(59, 130, 246);
+}
+.update-movie-form__field-input::-moz-placeholder {
+  color: gray-300;
+}
+.update-movie-form__field-input::placeholder {
+  color: gray-300;
+}
+.update-movie-form__buttons {
+  display: flex;
+  justify-content: center;
+}
+.update-movie-form__buttons-update {
+  background-color: rgb(59, 130, 246);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.375rem;
+  outline: none;
+  transition-duration: 300ms;
+  display: flex;
+  align-items: center;
+}
+.update-movie-form__buttons-update:hover {
+  background-color: rgb(37, 99, 235);
+}
+.update-movie-form__buttons-cancel {
+  background-color: rgb(239, 68, 68);
+  color: white;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.375rem;
+  outline: none;
+  transition-duration: 300ms;
+  display: flex;
+  align-items: center;
+}
+.update-movie-form__buttons-cancel:hover {
+  background-color: rgb(220, 38, 38);
+}
+.update-movie-form__buttons-icon {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=UpdateMovieFormTemplate.css.map */

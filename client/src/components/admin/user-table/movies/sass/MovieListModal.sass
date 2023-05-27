@@ -1,0 +1,139 @@
+.modal-container
+  position: fixed
+  opacity: 0.8
+  inset: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: black
+  background-opacity: 0.5
+
+  &__content
+    max-width: 80rem
+    width: 100%
+    margin-left: 1rem
+    margin-right: 1rem
+    background-color: rgb(31, 41, 55)
+    background-opacity: 0.75
+    border-radius: 0.5rem
+    padding: 1.5rem
+
+  &__header
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 1rem
+    color:white
+
+    @media (min-width: 768px)
+      flex-direction: row
+
+    &__title
+      font-size: 1.125rem
+      line-height: 1.75rem
+      font-weight: 700
+      color: white
+      margin-bottom: 0.5rem
+
+      @media (min-width: 768px)
+        margin-bottom: 0px
+
+  &__search
+
+    @media (min-width: 768px)
+      margin-left: 1rem
+
+    &-input
+      padding-left: 0.5rem
+      padding-right: 0.5rem
+      padding-top: 0.25rem
+      padding-bottom: 0.25rem
+      border-width: 1px
+      border-color: rgb(209, 213, 219)
+      border-radius: 0.375rem
+
+      &:focus
+        outline: 2px solid transparent
+        outline-offset: 2px
+        border-color: rgb(59, 130, 246)
+      
+      @media (min-width: 768px)
+        width: 16rem
+
+  &__close
+
+    &-button
+      color: white
+      padding: 0.5rem
+      margin-left: 1rem
+
+      &:hover
+        color: rgb(55, 65, 81)
+
+      &:focus
+        outline: 2px solid transparent
+        outline-offset: 2px
+
+    &-icon
+      margin-right: 0.5rem
+
+  &__movie
+    display: grid
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+    grid-template-columns: 2
+    grid-template-columns: 3
+    grid-template-columns: 4
+    gap: 1rem
+
+    @media (min-width: 768px) 
+      grid-template-columns: repeat(2, minmax(0, 1fr))
+
+    @media (min-width: 1024px)
+      grid-template-columns: repeat(3, minmax(0, 1fr))
+
+    @media (min-width: 1280px)
+      grid-template-columns: repeat(4, minmax(0, 1fr))
+
+    &-card
+      margin-bottom: 1rem
+      padding: 1rem
+      background-color: rgb(55, 65, 81)
+      background-opacity: 0.75
+      border-radius: 0.5rem
+
+    &-title
+      font-size: 1.25rem
+      line-height: 1.75rem
+      font-weight: 700
+      color: white
+
+    &-description
+      color: rgb(209, 213, 219)
+
+    &-genre
+      color: rgb(156, 163, 175)
+
+    &-release-date
+      color: rgb(156, 163, 175)
+
+    &-link
+      color: rgb(96, 165, 250)
+
+      &:hover
+        color: rgb(59, 130, 246)
+
+  &__pagination
+    margin-top: 1rem
+    display: flex
+    justify-content: center
+
+    &-button
+      margin-left: 0.25rem
+      margin-right: 0.25rem
+      padding-left: 0.75rem
+      padding-right: 0.75rem
+      padding-top: 0.5rem
+      padding-bottom: 0.5rem
+      border-radius: 0.25rem
+      background-color: blue-500

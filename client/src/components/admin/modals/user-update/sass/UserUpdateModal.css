@@ -1,0 +1,77 @@
+.modal-container {
+  position: fixed;
+  inset: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  opacity: 85%;
+}
+.modal-container__content {
+  position: relative;
+  max-width: 28rem;
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: rgb(31, 41, 55);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+.modal-container__close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: rgb(209, 213, 219);
+}
+.modal-container__close:hover {
+  color: rgb(229, 231, 235);
+}
+.modal-container__close:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.modal-container__close-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.modal-container__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: rgb(209, 213, 219);
+}
+.modal-container__input {
+  width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  color: rgb(209, 213, 219);
+  background-color: rgb(55, 65, 81);
+  border-width: 1px;
+  border-color: rgb(75, 85, 99);
+  border-radius: 0.25rem;
+}
+.modal-container__input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border-color: rgb(59, 130, 246);
+}
+.modal-container__button {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 130, 246);
+  border-radius: 0.25rem;
+}
+.modal-container__button:hover {
+  background-color: rgb(29, 78, 216);
+}
+.modal-container__button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}/*# sourceMappingURL=UserUpdateModal.css.map */

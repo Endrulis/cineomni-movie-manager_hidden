@@ -1,0 +1,68 @@
+.user-table
+    width: 100%
+    background-color: rgb(31, 41, 55)
+    border-radius: 0.5rem
+    opacity: 0.75
+
+    &__row
+        cursor: pointer
+
+        &:hover
+            background-color: rgb(55, 65, 81)
+
+        &-header
+            padding-top: 0.75rem
+            padding-bottom: 0.75rem
+            padding-left: 1rem
+            padding-right: 1rem
+            font-size: 0.875rem
+            line-height: 1.25rem
+            color: rgb(209, 213, 219)
+            text-align: left
+            font-weight: 700
+            cursor: pointer
+
+            &:hover
+                background-color: rgb(55, 65, 81)
+                cursor: pointer
+        
+        &-cell
+            padding-top: 0.75rem
+            padding-bottom: 0.75rem
+            padding-left: 1rem
+            padding-right: 1rem
+            font-size: 0.875rem
+            line-height: 1.25rem
+            color: rgb(209, 213, 219)
+            text-align: left
+
+            &:hover
+                color: rgb(59, 130, 246)
+
+    &__sort-icon
+        margin-left: 0.25rem
+
+    &__update-button
+        padding-left: 0.75rem
+        padding-right: 0.75rem
+        padding-top: 0.25rem
+        padding-bottom: 0.25rem
+        border-radius: 0.25rem
+        color: rgb(255, 255, 255)
+
+        &:hover
+            color: rgb(59, 130, 246)
+
+        &:focus
+            outline: 2px solid transparent
+            outline-offset: 2px
+    
+    &__delete-button
+        color: rgb(248, 113, 113)
+
+        &:hover
+            color: rgb(239, 68, 68)
+
+        &:focus
+            outline: 2px solid transparent
+            outline-offset: 2px

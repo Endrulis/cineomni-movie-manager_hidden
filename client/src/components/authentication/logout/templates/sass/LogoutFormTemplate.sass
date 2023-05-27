@@ -1,0 +1,45 @@
+.form-container
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  height: 100vh
+  position: relative
+
+  &__form
+    border-radius: 0.375rem
+    padding: 1.5rem
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    background-color: rgba(17, 24, 39, 0.75)
+    color: #fff
+    text-align: center
+
+  &__title
+    font-size: 1.5rem
+    margin-bottom: 1rem
+
+  &__buttons
+    display: flex
+    justify-content: center
+    gap: 1rem
+
+  &__button
+    background-color: #f56565
+    padding: 0.5rem 1rem
+    border-radius: 0.25rem
+    color: #fff
+    font-weight: bold
+    width: 6rem
+
+    &:hover
+      background-color: #e53e3e
+
+    &-logout
+      background-color: #f56565
+      &:hover
+        background-color: #e53e3e
+
+    &-back
+      background-color: #48bb78
+      &:hover
+        background-color: #38a169

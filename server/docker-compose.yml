@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  test-db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: java 
+      MYSQL_DATABASE: cineomni_movie_manager_db
+    ports:
+      - "5435:3306"
